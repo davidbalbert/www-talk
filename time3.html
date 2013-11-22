@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>What time is it?</title>
+  <
+  <script>
+    var showTime = function () {
+        document.getElementById("time").innerHTML = "The time is " + new Date();
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+        showTime();
+        setInterval(showTime, 1000);
+    });
+  </script>
+</head>
+<body>
+  <div id="time"></div>
+</body>
+</html>

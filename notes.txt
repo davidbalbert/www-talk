@@ -1,0 +1,68 @@
+The world wide web:
+
+The goal: understanding the web and understanding how you fit into it.
+
+It's all text:
+Web page (HTML)
+	show a web page
+Getting that text to your browser (HTTP; more text)
+	show request/response example
+	telnet google
+	netcat google
+	wireshark google
+
+Static text
+Text in files
+Dynamic generation of text. Time.now.
+Stateless vs stateful
+	Chrome inspector (cookies)
+	Wireshark cookie headers
+	Steal my cookies
+
+Styles
+CSS
+selectors
+
+Change the webpage while it's running
+	Hide and show things. Animate things. Change content, etc.
+	
+	Javascript
+	Single threaded
+	Evented (on click, run this function)
+	Modify your document while it's running
+	DOM
+
+AJAX
+	What if we want new data
+	make an http request without reloading the page
+	Asynchronous (just like everything else).
+
+How about having the server send you information (chat app)?
+Long poll
+
+Web Sockets
+	- What are sockets.
+	- TCP
+	- websocket upgrade header
+
+REST
+
+Infrastructure
+
+Web server - just a computer
+IP addresses
+DNS (hierarchy)
+
+Webapp
+stateless app servers
+shared database
+reverse proxy
+caching
+
+IAAS - AWS
+EC2
+S3
+
+PAAS
+Heroku
+Heroku contract - STDOUT logging, $PORT, etc.
